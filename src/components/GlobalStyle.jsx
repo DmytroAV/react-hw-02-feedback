@@ -1,3 +1,11 @@
+import { createGlobalStyle } from 'styled-components';
+import 'normalize.css';
+
+export const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +19,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: grid;
+  justify-content: center;
+  padding: 24px;
+  width: 500px;
+}
+
+`;
