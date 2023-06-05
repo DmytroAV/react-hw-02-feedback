@@ -7,7 +7,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 body {
-  margin: 0;
+  margin: 10px;
+  padding: 24px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,9 +23,15 @@ code {
 
 .container {
   display: grid;
-  justify-content: center;
-  padding: 24px;
-  width: 500px;
+  justify-items: center;
+  gap: 50px;
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  background-color:  #f8f8f8;
+  border: 2px solid #C2C2C2;
+  border-radius: 3px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
 }
 
 `;

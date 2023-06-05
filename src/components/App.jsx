@@ -43,10 +43,7 @@ export class App extends Component {
         <GlobalStyle />
         <div className="container">
           <Section title="Please leave feedback">
-            <FeedbackOptions
-              // options={}
-              onLeaveFeedback={this.handleClick}
-            />
+            <FeedbackOptions onLeaveFeedback={this.handleClick} />
           </Section>
           <Section title="Statistics">
             {!totalFeedback ? (
