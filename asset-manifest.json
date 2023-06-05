@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-hw-02-feedback/static/css/main.58462fbc.css",
+    "main.js": "/react-hw-02-feedback/static/js/main.509bd944.js",
+    "index.html": "/react-hw-02-feedback/index.html",
+    "main.58462fbc.css.map": "/react-hw-02-feedback/static/css/main.58462fbc.css.map",
+    "main.509bd944.js.map": "/react-hw-02-feedback/static/js/main.509bd944.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58462fbc.css",
+    "static/js/main.509bd944.js"
+  ]
+}
